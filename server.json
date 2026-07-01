@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rzere/mcpexplorer",
+  "title": "MCPExplorer",
+  "description": "Search and vet MCP servers from inside your agent — verified tools, risk labels, and trust scores for the MCP ecosystem.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mcpexplorer.com",
+  "repository": {
+    "url": "https://github.com/rzere/mcpexplorer-docs",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpexplorer.com/mcp"
+    }
+  ]
+}
