@@ -43,7 +43,7 @@ until you install it and hope.
   and freshness — with every contributing factor shown on the page, not a black box.
 - **Stays fresh.** Every fact carries provenance and a "last checked" timestamp.
 
-**Currently ~965 servers indexed · 3,300+ tools extracted · 265 handshake-verified.**
+**Currently ~1,000 servers indexed · 3,500+ tools extracted · 278 handshake-verified.**
 
 ## Start here
 
