@@ -43,7 +43,7 @@ until you install it and hope.
   and freshness — with every contributing factor shown on the page, not a black box.
 - **Stays fresh.** Every fact carries provenance and a "last checked" timestamp.
 
-**Currently ~860 servers indexed, 1,100+ verified tools.**
+**Currently ~965 servers indexed · 3,300+ tools extracted · 265 handshake-verified.**
 
 ## Start here
 
@@ -56,8 +56,9 @@ until you install it and hope.
 
 ## The MCPExplorer MCP server
 
-MCPExplorer exposes its own MCP server, so you can **search and vet servers from
-inside your agent** — without leaving your client.
+MCPExplorer exposes its own MCP server, so you can **search, vet, and assemble
+servers from inside your agent** — without leaving your client. Hand `plan_toolset`
+a plain-language goal and get back a recommended, governed toolset.
 
 **Endpoint:** `https://mcpexplorer.com/mcp` (Streamable HTTP, no auth)
 
@@ -80,7 +81,7 @@ claude mcp add --transport http mcpexplorer https://mcpexplorer.com/mcp
 }
 ```
 
-**Tools:**
+**Tools (14):**
 
 | Tool | What it does |
 |---|---|
@@ -88,9 +89,15 @@ claude mcp add --transport http mcpexplorer https://mcpexplorer.com/mcp
 | `get_server` | A server's verified tools, install command, and trust breakdown |
 | `get_capability` | Servers that provide a given capability |
 | `compare_servers` | Side-by-side comparison of two servers |
-| `generate_runtime_config` | Ready-to-paste client config for a server |
-| `check_trust` | Trust score and reasoning for a server |
 | `get_alternatives` | Servers similar to a given one |
+| `check_trust` | Explainable trust score and reasoning for a server |
+| `generate_runtime_config` | Ready-to-paste client config for a server |
+| `list_capabilities` | The capability slugs you can search and look up by |
+| `list_runtimes` | Runtimes `generate_runtime_config` supports |
+| `get_ecosystem_stats` | Live totals + provenance/transport breakdowns |
+| `list_loadouts` | Curated server kits for a job (GTM, coding, research, …) |
+| `get_loadout` | One kit with live trust + aggregated tool-risk |
+| `plan_toolset` | Plain-language goal → a recommended governed toolset |
 | `report_broken_server` | Flag a stale or broken listing |
 
 ---
