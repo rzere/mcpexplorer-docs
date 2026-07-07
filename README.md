@@ -148,3 +148,4 @@ described above — never on the host, never with secrets.
 
 <sub>MCPExplorer · [mcpexplorer.com](https://mcpexplorer.com) · a discovery, trust,
 and capability graph for MCP servers.</sub>
+
